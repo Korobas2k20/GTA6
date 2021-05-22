@@ -3080,8 +3080,8 @@ value){switch(index){case ENABLE:this.SetEnabled(value);break}}GetDebuggerProper
 		C3.Behaviors.Pin.Acts.PinByImagePoint,
 		C3.Plugins.Sprite.Acts.SetVisible,
 		C3.Behaviors.Pin.Acts.Unpin,
-		C3.Plugins.progressbar.Acts.SetProgress,
 		C3.Plugins.progressbar.Acts.Destroy,
+		C3.Plugins.progressbar.Acts.SetProgress,
 		C3.Plugins.Text.Acts.SetOpacity,
 		C3.Plugins.System.Cnds.CompareTime,
 		C3.Plugins.Sprite.Cnds.IsOverlapping,
@@ -3285,7 +3285,8 @@ value){switch(index){case ENABLE:this.SetEnabled(value);break}}GetDebuggerProper
 		() => 15,
 		() => "Animation 1",
 		() => "die",
-		() => "PerehodDoor"
+		() => "PerehodDoor",
+		() => 10
 	];
 }
 
